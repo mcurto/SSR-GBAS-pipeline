@@ -1,10 +1,14 @@
+> 🚧 **Heads up!** A major update to this pipeline is on the way.  
+> Stay tuned — we’ll post details and migration notes here once it’s ready!
+
+
 # SSR-GBS pipeline
 
-﻿The SSR-GBS pipeline contains a set of scripts that can be used to analyze SSR-GBS sequence files as described in Tibihika et al (2019) and Curto et al. (2019).
+The SSR-GBS pipeline contains a set of scripts that can be used to analyze SSR-GBS sequence files as described in Tibihika et al (2019) and Curto et al. (2019).
 Impute files should be in fastq format where paired reads have been merged (see Curto et al. 2019 for more details). Each file should correspond to a different sample.
 The way the pipeline is made it will only work in unix based operating systems such as Linux and MacOS. However, a windows compatible pipeline is being produced.
 
-The pipeline is devided in two parts. A first one where a codominat matrix is produced with genotypes based on allele length is produced and a part where the gentypes are based on sequence composition. It is strognly advised that the length based matrix is manually quality controled using the length profiles histograms produced in the end of the first step. For more details please see Curto et al. (2019). The first part is done by running the scripts primer_demultiplex.py, CountLengths.sh, and Rscript_Markerlength_develop_Color.R. The senconf part by running Sequence_Allele_Call.py.
+The pipeline is divided into two parts. The first one where a codominant matrix is produced with genotypes based on allele length is produced and a part where the genotypes are based on sequence composition. It is strongly advised that the length-based matrix is manually quality controlled using the length profiles histograms produced in the end of the first step. For more details, please see Curto et al. (2019). The first part is done by running the scripts primer_demultiplex.py, CountLengths.sh, and Rscript_Markerlength_develop_Color.R. The second part by running Sequence_Allele_Call.py.
 
 
 ## References
