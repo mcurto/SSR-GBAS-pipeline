@@ -2,7 +2,7 @@
 > Stay tuned — we’ll post details and migration notes here once it’s ready!
 
 
-# SSR-GBS pipeline
+# SSR-GBAS pipeline
 
 The SSR-GBS pipeline contains a set of scripts that can be used to analyze SSR-GBS sequence files as described in Tibihika et al (2019) and Curto et al. (2019).
 Impute files should be in fastq format where paired reads have been merged (see Curto et al. 2019 for more details). Each file should correspond to a different sample.
