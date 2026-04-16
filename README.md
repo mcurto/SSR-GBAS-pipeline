@@ -1,5 +1,13 @@
-> 🚧 **Heads up!** A major update to this pipeline is on the way.  
-> Stay tuned — we’ll post details and migration notes here once it’s ready!
+# ⚠️ Deprecated Repository
+
+[![New Version Available](https://img.shields.io/badge/New%20Version-Available-brightgreen)](https://github.com/sonnenbe-dot/GBAS-GUI)
+
+👉 **Please use the updated pipeline:**  
+➡️ [GBAS-GUI](https://github.com/sonnenbe-dot/GBAS-GUI)
+
+---
+
+This version is kept for reproducibility but is no longer maintained.
 
 
 # SSR-GBAS pipeline
